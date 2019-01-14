@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Шалденкова Анна Владмимировна</h1>
+        <p>Технология LRS</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>ТЕХНОЛОГИЯ LRS</h2>
+        <h3>Презентация подготовлена студентом </br> 1 курса магистратуры </br>
+		Шалденковой Анной Владимировной</h3>
+        <figure>
+            <img class="cover" src="https://www.ubackground.com/_ph/21/416658223.jpg" alt="Hands on the orange typewriter in a park">
+            <figcaption class="copyright right white">
+                <a href="http://fiftyfootshadows.net/">Shaldenkova</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+			
+			#cover h3 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 30px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Содержание:</h2>
+        <ol>
+            <li>Понятие LSR</li>
+            <li class="next">LMS vs LRS</li>
+            <li class="next">Как решить, что вам нужно - LMS или LRS?</li>
+            <li class="next">Программное обеспечание</li>
+        </ol>
+    </section>
+	
+	<section class="slide">
+        <h2>LRS простыми словами</h2>
+        <figure>
+            <blockquote>
+                <p>Условно, LRS — это электронный журнал с оценками. Сюда <strong>Tin Can</strong> отправляет всю информацию по материалу:«пользователь приступил к курсу», «завершил тест», «читает документ» и т.д.</br>Это инструмент аналитики. Его используют для сбора и анализа данных. LRS может быть отдельным сервисом или идти в составе системы дистанционного обучения.</p>
+            </blockquote>
+            <figcaption> Ведущий разработчик технологий для корпоративного обучения</figcaption>
+        </figure>
+    </section>
+	
+	
+	
+<section class="slide">
+        <figure>
+           <figure>
+            <img class="cover" src="https://www.ispring.ru/elearning-insights/wp-content/uploads/editor/2018/06/ispring-blog-image-1528183648.png" alt="LRS">
+        </figure>
+    </section>
+	
+	  <section class="slide">
+        <h2>LMS vs LRS</h2>
+        <div class="columns two">
+            <p><strong>LMS (Learning Management System)</strong> 
+			</br>автоматизированная система, управляет назначениями, рекомендациями, есть бизнес-логика обработки данных</p>
+            <p><strong>LRS (Learning Record Store)</strong>
+			</br>база данных учебных активностей. Нет автоматизации учебного процесса, нет бизнес-логики обработки данных.
+			</br>LMS может включать в себя LRS.</p>
+        </div>
+    </section>
+	
+	<section class="slide">
+        <h2>Как решить, что вам нужно - LMS или LRS?</h2>
+        <p>Если нужно только учитывать результаты обучения и анализировать эти результаты - это <strong>LRS.</strong></br>
+		Если существует бизнес-процесс обучения, которым нужно управлять:
+		<li>формировать группы,</li>
+		<li>строить адаптивные программы, </li>
+		<li>проводить повторное обучение по итогам предыдущего,</li>
+		<li>комбинировать разные способы обучения - значит, нужна <strong>LMS.</strong></li>
+		</p>
+    </section>
+	
+    <section class="slide">
+        <h2>Программое обеспечение:</h2>
+        <ol>
+            <li>условно бесплатная LRS: http://cloud.scorm.com</li>
+            <li>условно бесплатная LRS: WT 3.5 DEMO (июль 2018)</li>
+            <li>бесплатная LRS ( для тех, у кого есть WebTutor): WT 3.5</li>
+			</ol>
+    </section>
+
+  
+
+    <section class="slide">
+        <h2 class="shout shrink">Thank you for your attention!</h2>
+    </section>
+
+
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Могу, если захочу!</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 2018 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
